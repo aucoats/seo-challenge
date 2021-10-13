@@ -7,9 +7,8 @@ The purpose of this project was to refactor index.html and style.css for an alre
 - Adding id tags where necessary for functional nav links
 - Consolidation of CSS 
 - Adding or removing of CSS styles to fit new HTML elements and classes
-- Addition of in line comments in index.html and style.css to document changes
+- Adding comments to CSS to style sheet
 
-See in line comments for specific changes.
 
 Site deployed at [seo-challenge](https://aucoats.github.io/seo-challenge/)
 
