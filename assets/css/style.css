@@ -9,7 +9,6 @@ body {
 }
 
 /* begin header styles */
-/* changed from class selector to match semantic html starting here */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -26,7 +25,6 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
-/* div element selector to nav element selector starting here */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -43,15 +41,16 @@ header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-/* end of div > nav selector changes */
-/* end of class selector > element selector changes */
+
 /* end of header styles */
 
+/* <a> tag styles */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* content style for all <p> tags unless selected later */
 p {
     font-size: 16px;
 }
@@ -67,15 +66,12 @@ p {
 }
 
 /* begin content section styles */
-/* moved content selector up to match flow of html */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/* moved selectors up to match flow of html */
-/* changed multiple class selectors in content to one selector and consolidated css */
 .content article {
     margin-bottom: 20px;
     padding: 50px;
@@ -86,14 +82,12 @@ p {
     text-align: left;
 }
 
-/* consolidated content h2 styles into one and moved up in css */
 .content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-/* consolidated content img styles into one style */
-/* added margin and display properties to fit mock-up */
+
 .content article img {
     max-height: 200px;
     float: left;
@@ -102,19 +96,13 @@ p {
 
 /* end content styles */
 
-/* added class selector for new class in content section to float text */
+/* class selector for content section to match mock-up */
 .text-left {
     float: left;
     width: 65%;
 }
 
-/*
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-*/
-
+/* class selector added to match mock up */
 .float-right {
     float: right;
     margin-left: 25px;
@@ -133,7 +121,6 @@ p {
     background-color: #2589bd;
 }
 
-/* consolidated benefit divs into one semantic selector */
 .benefits article {
     margin-bottom: 32px;
     color: #ffffff;
@@ -144,7 +131,6 @@ p {
     text-align: center;
 }
 
-/* consolidated css for images in benefits section */
 .benefits img {
     display: block;
     margin: 10px auto;
@@ -154,7 +140,7 @@ p {
 /* end benefits styles */
 
 /* begin footer styles */
-/* changed from class selector to semantic element selector */
+
 footer {
     padding: 30px;
     clear: both;
@@ -165,4 +151,5 @@ footer {
 footer h2 {
     font-size: 20px;
 }
+
 /* end footer styles */

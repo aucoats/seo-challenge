@@ -4,15 +4,15 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
-    <!--changed title to be more descriptive-->
+    
     <title>Horiseon</title>
 </head>
-<!-- TODO alt text on hero if possible, make html congruent in content section if possible -->
+
 <body>
-    <!--changed div to header-->
+
     <header>
         <h1>Hori<span class="seo">seo</span>n</h1>
-        <!-- changed generic div to nav -->
+        
         <nav>
             <ul>
                 <li>
@@ -28,27 +28,26 @@
         </nav>
     </header>
 
-    <!--changed div to section for hero-->
     <section class="hero"></section>
 
-    <!--semantic section element instead of div element-->
     <section class="content">
 
-        <!--article element instead of div element-->
-        <!--changed article class to article id for link functionality-->
-        <!-- removed unnecessary class from article tags -->
         <article id="search-engine-optimization">
-            <!-- removed class to mach css consolidation, added alt text to describe image -->
-            <img src="./assets/images/search-engine-optimization.jpg" alt="Notebook containing principles of SEO, such as compatability, social media, line building, content, backlink, and headings" />
-            <h2>Search Engine Optimization</h2>
-            <p>
-                The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
-            </p>
+            
+            <div>
+                <img src="./assets/images/search-engine-optimization.jpg" alt="Notebook containing principles of SEO, such as compatability, social media, line building, content, backlink, and headings" />
+            </div>
+            <div>    
+                <h2>Search Engine Optimization</h2>
+                <p>
+                    The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
+                </p>
+            </div>
+
         </article>
 
-        <!--article element instead of div element-->
         <article id="online-reputation-management">
-            <!-- added div classes for styling -->
+
             <div class="text-left">    
                 <h2>Online Reputation Management</h2>
                 <p>
@@ -56,28 +55,32 @@
                 </p>
             </div>
             <div>
-                <!-- added alt text to describe image -->
-                <!-- moved img element to fit flow of html -->
                 <img class="float-right" src="./assets/images/online-reputation-management.jpg" alt="Graph on a laptop indicating an increase in reputation" />
             </div>
+
         </article>
 
-        <!--article element-->
+        
         <article id="social-media-marketing">
-            <!-- removed class to match css consolidation, added alt text to image -->
-            <img src="./assets/images/social-media-marketing.jpg" alt="Uses that showcase the impact of social media, such as liking and sharing music, ideas, and other media" />
-            <h2>Social Media Marketing</h2>
-            <p>
-                Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
-            </p>
+            
+            <div>
+                <img src="./assets/images/social-media-marketing.jpg" alt="Uses that showcase the impact of social media, such as liking and sharing music, ideas, and other media" />
+            </div>
+            
+            <div>
+                <h2>Social Media Marketing</h2>
+                <p>
+                    Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
+                </p>
+            </div>
+
         </article>
+
     </section>
 
-    <!-- generic div > semantic section -->
-    <!-- added empty alt text to showcase decorative images -->
+    
     <section class="benefits">
-        <!-- removed div classes to fit css consolidation -->
-        <!-- div > semantic article -->
+
         <article>
             <h3>Lead Generation</h3>
             <img src="./assets/images/lead-generation.png" alt="" />
@@ -85,6 +88,7 @@
                 Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
             </p>
         </article>
+
         <article>
             <h3>Brand Awareness</h3>
             <img src="./assets/images/brand-awareness.png" alt="" />
@@ -92,17 +96,17 @@
                 Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
             </p>
         </article>
+
         <article>
             <h3>Cost Management</h3>
-            <!-- changed to self closing img element -->
             <img src="./assets/images/cost-management.png" alt="" />
             <p>
                 As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
             </p>
         </article>
+
     </section>
 
-    <!-- added semantic element for footer-->
     <footer>
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
